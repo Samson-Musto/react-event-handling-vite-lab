@@ -1,15 +1,14 @@
-import { useState } from 'react'
 import '../App.css'
 import PasswordInput from './PasswordInput'
 import SubmitButton from './SubmitButton'
 
-function App() {
 
+function App() {
   return (
-    <div>
-      <PasswordInput/>
-      <SubmitButton/>
-    </div>
+    <main>
+      <PasswordInput />
+      <SubmitButton />
+    </main>
   )
 }
 

@@ -1,9 +1,17 @@
-// Code PasswordInput Component Here
 
-function PasswordInput (){
-    return(
-        <></>
-    )
+
+function PasswordInput() {
+  function handleChange() {
+    console.log('Entering password...')
+  }
+
+  return (
+    <input
+      type="password"
+      onChange={handleChange}
+      aria-label="Password"
+    />
+  )
 }
 
-export default PasswordInput;
+export default PasswordInput
